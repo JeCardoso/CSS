@@ -1,0 +1,57 @@
+CSS position
+absolute == browser (de acordo com a resolução da tela)
+relative == div mãe
+static == de acordo com o fluxo do html
+fixed == fica fixo na tela mesmo rolando
+
+z-index == profundidade quanto maior mais a frente
+
+display
+inline == mesma linha
+block == quebra linha depois
+none == não exibe
+
+overflow - verifica o que passa do tamanho do elemento
+hidden == esconde o que vazar
+scroll == coloca uma barra de rolagem
+visible == deixa visivel
+auto == cria rolagem e pode criar scrool abaixo
+overflow-x: hidden == não ter rolagem abaixo
+
+background-image:url(01.jpg);
+
+background-repeat
+no-repeat == apenas uma vez
+repeat == repetir totalmente
+repeat-x == repete horizontal
+
+background-attachment
+fixed == fica fixa na tela
+scrool == rola a imagem de fundo 
+
+background-position
+center top == centralizar e começar de cima
+
+background: color image repeat fixed position
+background: #000 url(01.jpg) no-repeat fixed center top;
+
+font:weight style variant size/line-height family;
+font:bold italic small-caps 40px/25px arial, helvetica;
+
+text-decoration
+underline == linha abaixo
+overline == linha acima
+line-through == cortar a palavra
+blink == texto fica piscando
+
+letter-spacing:10px ou word-spacing:10px;
+
+text-transform
+capitalize == primeira letra da palavra maiúscula
+uppercase = todas letras em maiusucula
+lowercase == todas em minusculas
+
+
+onclick == ao clicar
+onblur == ao sair o foco do elemento
+onchange == ao mudar o conteúdo
